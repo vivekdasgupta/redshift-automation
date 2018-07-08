@@ -11,6 +11,7 @@ Push Container : make push
 Run :  
 
 $ docker pull your.dockerregistry.com/tools/redshift-automation
+
 $ make buildRedshiftCluster PROJECT=%project_name% ENV=%env% FILE="config.yml"
 
 Detailed documentation in my blog : https://medium.com/@vivek.dasgupta/aws-redshift-deployment-automation-1c49888ddebc

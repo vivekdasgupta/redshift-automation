@@ -1,0 +1,11 @@
+---
+db_name: your-cluster-db
+cluster_identifier: "your-cluster-id"
+cluster_type: "multi-node"
+node_type: "dc1.large"
+number_of_nodes: 12
+master_username: "youruser"
+master_user_password: "yourpass"
+vpc_security_group_ids: "sg-12345678"
+cluster_subnet_group_name: "your-redshift-subnet"
+publicly_accessible: false
